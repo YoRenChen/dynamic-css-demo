@@ -4,5 +4,17 @@
 
 ## 目录
 
-1. [css-card-show](https://github.com/YoRenChen/dynamic-css-demo/tree/master/demo/css-card-show)
-   <img src="demo/css-card-show/docs/preview.gif" alt="css-card-show" width="100px"/>
+1. [css-card-show](https://github.com/YoRenChen/dynamic-css-demo/tree/master/demo/css-card-show)<img class="readme-img" src="demo/css-card-show/docs/preview.gif" alt="css-card-show" />
+
+<style>
+ .readme-img {
+   width: 100px;
+   cursor: pointer;
+   padding-left: 24px;
+   vertical-align:middle;
+   transition: transform .3s;
+ }
+ .readme-img:hover {
+   transform: scale(4)
+ }
+</style>
