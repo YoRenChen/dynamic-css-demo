@@ -1,6 +1,6 @@
 # dynamic-css-demo
 
-存放各种感觉有意思的小动态 css
+收集各种有意思的 小动态 css
 
 ## 目录
 
