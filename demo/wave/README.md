@@ -1,3 +1,3 @@
 # wave
 ## preview
-![result](./docs/preview.gif)
+![result](./preview.gif)
