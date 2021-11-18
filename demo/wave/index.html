@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="card">
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </div>
+  <style>
+    body {
+      background-color: gold;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      width: 300px;
+      height: 300px;
+
+      position: relative;
+
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .wave {
+      width: 700px;
+      height: 700px;
+
+      position: absolute;
+      top: 200px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: green;
+      filter: opacity(0.4);
+
+      border-radius: 45%;
+      animation: identifier linear infinite;
+      
+    }
+    .wave:nth-child(1) {
+      animation-duration: 5s;
+    }
+    .wave:nth-child(2) {
+      animation-duration: 8s;
+    }
+    @keyframes identifier {
+      from {
+        transform: translateX(-50%) rotate(360deg);
+      }
+    }
+  </style>
+</body>
+</html>
